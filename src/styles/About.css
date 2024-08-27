@@ -1,0 +1,36 @@
+.about {
+  padding: 100px 20px;
+  background: radial-gradient(circle, #f0f4f8 0%, #e0eafc 100%);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out both;
+}
+
+.about-title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.about-title:hover {
+  color: #007bff;
+}
+
+.about-description {
+  font-size: 1.5rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  padding: 20px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  text-align: center;
+  color: #fff;
+  animation: slideInUp 1s ease-in-out both;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

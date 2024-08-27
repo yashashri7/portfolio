@@ -2,14 +2,19 @@ import React from 'react';
 import '../styles/Projects.css';
 import ProjectCard from './ProjectCard';
 
+// Import images
+import toDoImage from '../assets/images/To-DO.JPG';
+import weatherImage from '../assets/images/Weather.JPG';
+import quizImage from '../assets/images/Quiz.JPG';
+
 const projects = [
   {
     title: 'To-Do List App',
     description: 'The To-Do List Application is a simple yet powerful tool designed to help users manage their tasks effectively. This web-based application allows users to add, delete, and mark tasks as complete. Utilizing local storage, the app ensures that tasks persist across page refreshes, providing a seamless user experience.',
-    techStack: ['HTML', 'CSS','JavaScript'],
+    techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/To-Do-List-App/',
     repoLink: 'https://github.com/yashashri7/To-Do-List-App',
-    imageUrl: 'public\images\To-DO.JPG'
+    imageUrl: toDoImage 
   },
   {
     title: 'Weather App',
@@ -17,8 +22,7 @@ const projects = [
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/Weather-App/',
     repoLink: 'https://github.com/yashashri7/Weather-App',
-    imageUrl: 'public/images/Weather.JPG' 
-      
+    imageUrl: weatherImage  
   },
   {
     title: 'Quiz App',
@@ -26,7 +30,7 @@ const projects = [
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/Interactive-Quiz-App/',
     repoLink: 'https://github.com/yashashri7/Interactive-Quiz-App',
-    imageUrl: 'public/images/Quiz.JPG' 
+    imageUrl: quizImage  
   },
 ];
 

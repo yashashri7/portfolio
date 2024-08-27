@@ -2,35 +2,30 @@ import React from 'react';
 import '../styles/Projects.css';
 import ProjectCard from './ProjectCard';
 
-// Import images
-import toDoImage from '../assets/images/To-DO.JPG';
-import weatherImage from '../assets/images/Weather.JPG';
-import quizImage from '../assets/images/Quiz.JPG';
-
 const projects = [
   {
     title: 'To-Do List App',
-    description: 'The To-Do List Application is a simple yet powerful tool designed to help users manage their tasks effectively. This web-based application allows users to add, delete, and mark tasks as complete. Utilizing local storage, the app ensures that tasks persist across page refreshes, providing a seamless user experience.',
+    description: 'The To-Do List Application is a simple yet powerful tool...',
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/To-Do-List-App/',
     repoLink: 'https://github.com/yashashri7/To-Do-List-App',
-    imageUrl: toDoImage 
+    imageUrl: process.env.PUBLIC_URL + '/images/To-DO.JPG' // Updated path
   },
   {
     title: 'Weather App',
-    description: 'The Weather App is a web application that provides real-time weather information and forecasts. It enables users to search for weather data by city, view current weather conditions, and access a 5-day weather forecast. Designed with user experience in mind, the app ensures that users receive accurate and timely weather updates.',
+    description: 'The Weather App is a web application that provides real-time weather information...',
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/Weather-App/',
     repoLink: 'https://github.com/yashashri7/Weather-App',
-    imageUrl: weatherImage  
+    imageUrl: process.env.PUBLIC_URL + '/images/Weather.JPG' // Updated path
   },
   {
     title: 'Quiz App',
-    description: 'The Interactive Quiz App is a web-based application designed to provide users with a dynamic and engaging quiz experience. It allows users to test their knowledge on various topics by answering multiple-choice questions. The app features a responsive design, real-time feedback, and a user-friendly interface, making it an excellent tool for both casual users and educational purposes.',
+    description: 'The Interactive Quiz App is a web-based application designed...',
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/Interactive-Quiz-App/',
     repoLink: 'https://github.com/yashashri7/Interactive-Quiz-App',
-    imageUrl: quizImage  
+    imageUrl: process.env.PUBLIC_URL + '/images/Quiz.JPG' // Updated path
   },
 ];
 

@@ -9,7 +9,7 @@ const projects = [
     techStack: ['HTML', 'CSS','JavaScript'],
     hostedLink: 'https://yashashri7.github.io/To-Do-List-App/',
     repoLink: 'https://github.com/yashashri7/To-Do-List-App',
-    imageUrl: '/To-DO.JPG' 
+    imageUrl: '/images/To-DO.JPG' 
   },
   {
     title: 'Weather App',
@@ -17,7 +17,7 @@ const projects = [
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/Weather-App/',
     repoLink: 'https://github.com/yashashri7/Weather-App',
-    imageUrl: '/Weather.JPG' 
+    imageUrl: '/images/Weather.JPG' 
       
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     techStack: ['HTML', 'CSS', 'JavaScript'],
     hostedLink: 'https://yashashri7.github.io/Interactive-Quiz-App/',
     repoLink: 'https://github.com/yashashri7/Interactive-Quiz-App',
-    imageUrl: '/Quiz.JPG' 
+    imageUrl: '/images/Quiz.JPG' 
   },
 ];
 
